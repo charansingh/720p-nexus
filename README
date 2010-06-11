@@ -1,0 +1,22 @@
+Credits
+My Parents
+Cyanogen
+Wysie_Soh
+coolbho3k
+maxisma
+barakinflorida
+Google
+and more
+
+s5k3e2fx.c is the camera driver, upped to clock to 80mhz from 72mhz. /driver/media/video/msm/
+
+msm_q6***.c files go in arch/arm/mach-msm/qdsp6
+msm_q6***.h files go in include/linux/
+
+opencore
+there is still to be a lot of editing done for nexus. Some stuff is edited , will probably be broken right now, will update the readme when ready
+
+Camera
+It has 3 profiles in total thx to Wysie_Soh for helping in it. I will add the 4th profile for adding another resolution after cleaning up the mess
+
+device_passion.mk - the values for encoders have been changed here vendor/google/passion/
