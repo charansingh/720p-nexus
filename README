@@ -20,3 +20,5 @@ Camera
 It has 3 profiles in total thx to Wysie_Soh for helping in it. I will add the 4th profile for adding another resolution after cleaning up the mess
 
 device_passion.mk - the values for encoders have been changed here vendor/google/passion/
+
+board-mahimahi.h - increase RAM allocated to Camera to 12mb
