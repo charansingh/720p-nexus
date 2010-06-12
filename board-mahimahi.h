@@ -18,26 +18,27 @@
 
 #include <mach/board.h>
 
+/* Adjusted for more camera PMEM and 411MB of RAM */
+
 #define MSM_SMI_BASE		0x02B00000
 #define MSM_SMI_SIZE		0x01500000
 
-/* GPU MEM has been moved here from EBI1 */
-#define MSM_GPU_MEM_BASE        0x02B00000
-#define MSM_GPU_MEM_SIZE        0x00500000
+/* Camera PMEM has been moved here from EBI1 and extended to 15MB */
+#define MSM_PMEM_CAMERA_BASE    0x02B00000
+#define MSM_PMEM_CAMERA_SIZE    0x00F00000
 
-/* Camera PMEM has been moved here from EBI1 */
-#define MSM_PMEM_CAMERA_BASE    0x03000000
-#define MSM_PMEM_CAMERA_SIZE    0x00B5B000
-
-#define MSM_FB_BASE		0x03B5B000
-#define MSM_FB_SIZE		0x00465000
-
-#define MSM_RAM_CONSOLE_BASE	0x03FC0000
-#define MSM_RAM_CONSOLE_SIZE	0x00040000
+#define MSM_RAM_CONSOLE_BASE    0x03A00000
+#define MSM_RAM_CONSOLE_SIZE    0x00040000
+ 
+#define MSM_FB_BASE             0x03B00000
+#define MSM_FB_SIZE             0x00465000
 
 /* Size of EBI1 BANK0 has been expanded from 0x0E000000 to 0x0E800000 */
 #define MSM_EBI1_BANK0_BASE     0x20000000
-#define MSM_EBI1_BANK0_SIZE     0x0E800000
+#define MSM_EBI1_BANK0_SIZE     0x0E300000
+
+#define MSM_GPU_MEM_BASE		0x2E300000
+#define MSM_GPU_MEM_SIZE        0x00500000
 
 #define MSM_EBI1_BANK1_BASE	0x30000000
 #define MSM_EBI1_BANK1_SIZE	0x10000000
