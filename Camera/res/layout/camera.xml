@@ -15,13 +15,13 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:camera="http://schemas.android.com/apk/res/com.android.camera"
+        xmlns:camera="http://schemas.android.com/apk/res/com.camera.camera"
         android:background="@drawable/camera_background"
         android:id="@+id/camera"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-    <com.android.camera.PreviewFrameLayout android:id="@+id/frame_layout"
+    <com.camera.camera.PreviewFrameLayout android:id="@+id/frame_layout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
@@ -36,7 +36,7 @@
             <SurfaceView android:id="@+id/camera_preview"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"/>
-            <com.android.camera.FocusRectangle
+            <com.camera.camera.FocusRectangle
                     android:id="@+id/focus_rectangle"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"/>
@@ -51,32 +51,32 @@
                     android:layout_height="wrap_content">
                 <!-- Thsee icons should be in the same order as the
                         on-screen menu items -->
-                <com.android.camera.IconIndicator
+                <com.camera.camera.IconIndicator
                         style="@style/IconIndicator"
                         android:id="@+id/gps_icon"
                         camera:modes="@array/gps_modes"
                         camera:icons="@array/gps_icons"/>
-                <com.android.camera.IconIndicator
+                <com.camera.camera.IconIndicator
                         style="@style/IconIndicator"
                         android:id="@+id/flash_icon"
                         camera:modes="@array/flash_modes"
                         camera:icons="@array/flash_icons"/>
-                <com.android.camera.IconIndicator
+                <com.camera.camera.IconIndicator
                         style="@style/IconIndicator"
                         android:id="@+id/scenemode_icon"
                         camera:modes="@array/scenemode_modes"
                         camera:icons="@array/scenemode_icons"/>
-                <com.android.camera.IconIndicator
+                <com.camera.camera.IconIndicator
                         style="@style/IconIndicator"
                         android:id="@+id/whitebalance_icon"
                         camera:modes="@array/pref_camera_whitebalance_entryvalues"
                         camera:icons="@array/whitebalance_icons"/>
-                <com.android.camera.IconIndicator
+                <com.camera.camera.IconIndicator
                         style="@style/IconIndicator"
                         android:id="@+id/focus_icon"
                         camera:modes="@array/pref_camera_focusmode_entryvalues"
                         camera:icons="@array/focusmode_icons"/>
             </LinearLayout>
         </FrameLayout>
-    </com.android.camera.PreviewFrameLayout>
+    </com.camera.camera.PreviewFrameLayout>
 </LinearLayout>

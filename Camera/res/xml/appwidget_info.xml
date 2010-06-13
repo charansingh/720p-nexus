@@ -19,6 +19,6 @@
     android:minHeight="146dip"
     android:updatePeriodMillis="0"
     android:initialLayout="@layout/photo_frame"
-    android:configure="com.android.camera.PhotoAppWidgetConfigure"
+    android:configure="com.camera.camera.PhotoAppWidgetConfigure"
     >
 </appwidget-provider>

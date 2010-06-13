@@ -15,13 +15,13 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:camera="http://schemas.android.com/apk/res/com.android.camera"
+        xmlns:camera="http://schemas.android.com/apk/res/com.camera.camera"
         android:id="@+id/video_camera"
         android:background="@drawable/camera_background"
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-    <com.android.camera.PreviewFrameLayout android:id="@+id/frame_layout"
+    <com.camera.camera.PreviewFrameLayout android:id="@+id/frame_layout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
@@ -70,12 +70,12 @@
                     android:layout_marginLeft="13dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
-                <com.android.camera.IconIndicator
+                <com.camera.camera.IconIndicator
                         style="@style/IconIndicator"
                         android:id="@+id/whitebalance_icon"
                         camera:modes="@array/pref_camera_whitebalance_entryvalues"
                         camera:icons="@array/whitebalance_icons"/>
             </LinearLayout>
         </FrameLayout>
-    </com.android.camera.PreviewFrameLayout>
+    </com.camera.camera.PreviewFrameLayout>
 </LinearLayout>

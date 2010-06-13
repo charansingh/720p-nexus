@@ -15,7 +15,7 @@
 -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:camera="http://schemas.android.com/apk/res/com.android.camera"
+        xmlns:camera="http://schemas.android.com/apk/res/com.camera.camera"
         android:id="@+id/control_bar"
         android:layout_height="fill_parent"
         android:layout_width="76dp"
@@ -55,7 +55,7 @@
                     android:text="@string/review_play" />
         </LinearLayout>
     </LinearLayout>
-    <com.android.camera.ShutterButton android:id="@+id/shutter_button"
+    <com.camera.camera.ShutterButton android:id="@+id/shutter_button"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"

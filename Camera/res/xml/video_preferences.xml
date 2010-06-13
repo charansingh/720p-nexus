@@ -15,7 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:camera="http://schemas.android.com/apk/res/com.android.camera">
+        xmlns:camera="http://schemas.android.com/apk/res/com.camera.camera">
     <PreferenceCategory
             android:title="@string/pref_camcorder_settings_category">
         <ListPreference
@@ -32,7 +32,7 @@
                 android:entries="@array/pref_camera_video_duration_entries"
                 android:entryValues="@array/pref_camera_video_duration_entryvalues"
                 android:dialogTitle="@string/pref_camera_video_duration_dialogtitle" />
-        <com.android.camera.IconListPreference
+        <com.camera.camera.IconListPreference
                 android:key="pref_camera_whitebalance_key"
                 android:defaultValue="@string/pref_camera_whitebalance_default"
                 android:title="@string/pref_camera_whitebalance_title"

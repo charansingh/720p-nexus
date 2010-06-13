@@ -12,7 +12,8 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
 LOCAL_PACKAGE_NAME := CameraTests
 
-LOCAL_INSTRUMENTATION_FOR := Camera
+LOCAL_INSTRUMENTATION_FOR := Cameranew
+
 
 include $(BUILD_PACKAGE)
 

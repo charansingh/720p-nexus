@@ -15,9 +15,9 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:camera="http://schemas.android.com/apk/res/com.android.camera">
+        xmlns:camera="http://schemas.android.com/apk/res/com.camera.camera">
     <PreferenceCategory android:title="@string/pref_camera_settings_category">
-        <com.android.camera.IconListPreference
+        <com.camera.camera.IconListPreference
                 android:key="pref_camera_flashmode_key"
                 android:defaultValue="@string/pref_camera_flashmode_default"
                 android:title="@string/pref_camera_flashmode_title"
@@ -32,7 +32,7 @@
                 android:entries="@array/pref_camera_scenemode_entries"
                 android:entryValues="@array/pref_camera_scenemode_entryvalues"
                 android:dialogTitle="@string/pref_camera_scenemode_dialogtitle" />
-        <com.android.camera.IconListPreference
+        <com.camera.camera.IconListPreference
                 android:key="pref_camera_whitebalance_key"
                 android:defaultValue="@string/pref_camera_whitebalance_default"
                 android:title="@string/pref_camera_whitebalance_title"
@@ -54,7 +54,7 @@
                 android:entries="@array/pref_camera_coloreffect_entries"
                 android:entryValues="@array/pref_camera_coloreffect_entryvalues"
                 android:dialogTitle="@string/pref_camera_coloreffect_dialogtitle" />
-        <com.android.camera.RecordLocationPreference
+        <com.camera.camera.RecordLocationPreference
                 android:key="pref_camera_recordlocation_key"
                 android:defaultValue="@string/pref_camera_recordlocation_default"
                 android:title="@string/pref_camera_recordlocation_title"
@@ -73,7 +73,7 @@
                 android:entries="@array/pref_camera_jpegquality_entries"
                 android:entryValues="@array/pref_camera_jpegquality_entryvalues"
                 android:dialogTitle="@string/pref_camera_jpegquality_dialogtitle" />
-        <com.android.camera.IconListPreference
+        <com.camera.camera.IconListPreference
                 android:key="pref_camera_focusmode_key"
                 android:defaultValue="@string/pref_camera_focusmode_default"
                 android:title="@string/pref_camera_focusmode_title"

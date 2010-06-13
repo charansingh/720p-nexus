@@ -40,7 +40,7 @@
         <ImageView android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:src="@drawable/btn_ic_mode_switch_video"/>
-        <com.android.camera.Switcher android:id="@+id/camera_switch"
+        <com.camera.camera.Switcher android:id="@+id/camera_switch"
                 android:layout_width="wrap_content"
                 android:layout_height="70dp"
                 android:src="@drawable/btn_mode_switch_knob"
@@ -51,7 +51,7 @@
                 android:src="@drawable/btn_ic_mode_switch_camera"/>
     </LinearLayout>
 
-    <com.android.camera.ShutterButton android:id="@+id/shutter_button"
+    <com.camera.camera.ShutterButton android:id="@+id/shutter_button"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"

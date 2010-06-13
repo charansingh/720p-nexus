@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal">
 
-    <com.android.camera.GalleryPickerItem android:id="@+id/thumbnail"
+    <com.camera.camera.GalleryPickerItem android:id="@+id/thumbnail"
             android:layout_width="142dip"
             android:layout_height="142dip"
             android:scaleType="centerCrop" />
